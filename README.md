@@ -13,7 +13,7 @@ This is a Google Keep clone project that replicates some of the core functionali
 
 ## Demo
 
-You can see a live demo of this project [here](#). [Update this link once you have the project deployed.]
+You can see a live demo of this project [here](https://keepifyapp.netlify.app/). 
 
 ## Features
 
