@@ -1,0 +1,40 @@
+ul{
+    list-style: None;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    justify-content: space-between;
+    border-bottom: 0.6px solid #5f6368;
+    
+
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+li{
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    vertical-align: middle;
+}
+.startitem{
+    align-self: flex-start;
+    
+    vertical-align: middle;
+    
+}
+span{
+    font-family: "Product Sans",Arial,sans-serif;
+    font-size: 22px;
+    color: #5f6368;
+    opacity: 1;
+    vertical-align: middle;
+    
+}
+.enditem{
+    /* align-self: center; */
+    margin: 0 auto 0 250px;
+    vertical-align: middle;
+}

@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState,useEffect} from 'react'
+import TextArea from './components/TextArea'
+import Navbar from './components/Navbar'
 
-function App() {
+const App = () => {
+
+  const localNotes = JSON.parse(localStorage.getItem("notes")) || [];
+  const [notes,setNotes]=useState(localNotes)
+
+
+  useEffect(() => {
+    localStorage.setItem("notes", JSON.stringify(notes));
+  }, [notes]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar notes={notes}/>
+      <TextArea notes={notes} setNotes={setNotes}/>
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

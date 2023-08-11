@@ -1,0 +1,35 @@
+.searchbar{
+    border:none;
+    width: 450px;
+    height:20px;
+    border-radius: 20px;
+    background-color: rgba(227, 225, 225, 0.893);
+    padding: 10px;
+    margin-top: 5px;
+}
+.search-container {
+    position: relative;
+  }
+  
+  .searchResult {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto; 
+    z-index: 10;
+    color: black;
+margin-top: 2px;
+    border-radius: 10px;
+  }
+  .item:hover{
+    background-color: #efeaea;
+    cursor:pointer;
+  }
+  .item{
+    padding: 5px;
+  }
