@@ -33,3 +33,10 @@ margin-top: 2px;
   .item{
     padding: 5px;
   }
+
+  @media screen and (max-width:600px){
+    .searchbar{
+        width: 200px;
+        height: 15px;
+    }
+  }

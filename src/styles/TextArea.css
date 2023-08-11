@@ -74,3 +74,22 @@ button:focus {
   color: rgb(0, 0, 0);
   padding: 0;
   }
+
+  @media screen and (max-width:600px){
+    .inputText{
+        width: 260px;
+    }
+    .note-container{
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+    .note{
+        min-width: 250px;
+        min-height: 60px;
+
+    }
+    .form-container{
+        margin-left: 25px;
+    }
+  }
