@@ -25,7 +25,7 @@ You can see a live demo of this project [here](#). [Update this link once you ha
 
 ## Installation
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/anirudhUN/googleKeep_clone`
 2. Install dependencies: `npm install`
 
 ## Usage
